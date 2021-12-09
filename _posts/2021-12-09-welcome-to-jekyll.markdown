@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Tugas Preparation Class Batch 6"
 date:   2021-12-09 10:49:12 +0700
 categories: jekyll update
 ---
