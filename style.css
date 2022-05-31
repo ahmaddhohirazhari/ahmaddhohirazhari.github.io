@@ -1,0 +1,85 @@
+body {
+  position: relative;
+  line-height: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(203, 220, 247);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  text-align: right;
+  background-color: blue;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+a {
+  padding-right: 1rem;
+  color: #ffffff;
+}
+#profil {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+img {
+  border-radius: 50%;
+}
+.grid-container {
+  display: inline-grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.kontak {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 35px;
+  border-width: 1px;
+  border-radius: 10%;
+}
+.resume {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 35px;
+  border-width: 1px;
+  background-color: blue;
+  border-radius: 10%;
+}
+.grid-item1 {
+  padding-top: 1rem;
+}
+.grid-item3 {
+  border-width: 5px;
+  border-style: solid;
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: rgb(215, 197, 233);
+  padding-left: 2rem;
+}
+#form {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 2em;
+}
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.submit {
+  width: 100%;
+  background-color: #00cc00;
+  border-width: 1px;
+}
+a {
+  text-decoration: none;
+}

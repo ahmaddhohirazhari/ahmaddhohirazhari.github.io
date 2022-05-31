@@ -1,0 +1,167 @@
+1. HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <div class="container">
+        <div class="navbar">
+          <a href="">HOME</a>
+          <a href="">PRODUCT</a>
+          <a href="">GALLERY</a>
+          <a href="">BLOG</a>
+          <a href="">MY INVENTORY</a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Navbar -->
+    <!-- Profil -->
+    <section id="profil">
+      <div class="container">
+        <div class="grid-container">
+          <div class="grid-item1">
+            <img src="ok.jpg" alt="ok" width="100px" />
+          </div>
+          <div class="grid-item2">
+            <h1>Ahmad Dhohir Azhari</h1>
+            <p>Web Developer</p>
+            <br />
+            <button class="kontak">Kontak</button>
+            <button class="resume">Resume</button>
+          </div>
+          <div class="grid-item3">
+            <p>Availability</p>
+            <p>Usia</p>
+            <p>Lokasi</p>
+            <p>Pengalaman</p>
+            <p>Email</p>
+          </div>
+          <div class="grid-item4">
+            <p>Full Time</p>
+            <p>26</p>
+            <p>Lampung, Indonesia</p>
+            <p>2 Tahun</p>
+            <p>dhohir12@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Profil -->
+
+    <!-- Form Input -->
+    <section id="form">
+      <div class="container">
+        <form action="nama">Nama</form>
+        <input type="text" />
+        <form action="Role">Role</form>
+        <input type="text" />
+        <form action="Availability">Availability</form>
+        <input type="text" />
+        <form action="Age">Age</form>
+        <input type="text" />
+        <form action="Lokasi">Lokasi</form>
+        <input type="text" />
+        <form action="Exp">Your Experience</form>
+        <input type="text" />
+        <form action="Email">Email</form>
+        <input type="email" />
+        <button class="submit">SUBMIT</button>
+      </div>
+    </section>
+    <!-- Akhir Form Input -->
+  </body>
+</html>
+
+2.CSS
+body {
+  position: relative;
+  line-height: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(203, 220, 247);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  text-align: right;
+  background-color: blue;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+a {
+  padding-right: 1rem;
+  color: #ffffff;
+}
+#profil {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+img {
+  border-radius: 50%;
+}
+.grid-container {
+  display: inline-grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.kontak {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 35px;
+  border-width: 1px;
+  border-radius: 10%;
+}
+.resume {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 35px;
+  border-width: 1px;
+  background-color: blue;
+  border-radius: 10%;
+}
+.grid-item1 {
+  padding-top: 1rem;
+}
+.grid-item3 {
+  border-width: 5px;
+  border-style: solid;
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: rgb(215, 197, 233);
+  padding-left: 2rem;
+}
+#form {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 2em;
+}
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.submit {
+  width: 100%;
+  background-color: #00cc00;
+  border-width: 1px;
+}
+a {
+  text-decoration: none;
+}
