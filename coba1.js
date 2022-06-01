@@ -1,7 +1,8 @@
-function coba(params) {
-  for (let i = 1; i <= params; i++) {
-    if ((i % params) - 1 == 0 && (i % params) - 5 == 0 && (i % params) - 3 == 0) console.log("*");
-    console.log(i);
+function Try(num) {
+  for (let i = 1; i <= num; i++) {
+    if (i % 5 == 2 || i % 5 == 0) {
+      console.log("*");
+    } else console.log(i);
   }
 }
-coba(10);
+Try(20);
