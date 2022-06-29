@@ -1,0 +1,147 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  margin: 0%;
+  display: flex;
+  background-color: blueviolet;
+  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+nav p a {
+  color: rgb(193, 148, 235);
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: rgb(193, 148, 235);
+  text-align: right;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.home {
+  position: relative;
+  height: 540px;
+  background-color: rgb(46, 49, 65);
+  background-size: auto;
+  font-size: large;
+  color: rgb(233, 164, 16);
+  font-family: sans-serif;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.8;
+}
+
+.home p {
+  color: white;
+}
+
+.about {
+  padding: 50px;
+  margin: 0%;
+  height: 540px;
+  color: rgb(229, 232, 241);
+  background-color: rgb(134, 137, 146);
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.about h2 {
+  text-align: center;
+}
+.about-me img {
+  padding: 20px;
+  border-radius: 50%;
+}
+.about-me {
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.portfolio {
+  text-align: center;
+  height: 600px;
+  background-color: rgb(46, 49, 65);
+  font-size: large;
+  color: rgb(233, 164, 16);
+  font-family: sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.8;
+  justify-content: space-between;
+}
+
+.blog {
+  text-align: center;
+  padding: 50px;
+  margin: 0%;
+  height: 600px;
+  color: rgb(229, 232, 241);
+  background-color: rgb(134, 137, 146);
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.team {
+  text-align: center;
+  height: 1200px;
+  background-color: rgb(46, 49, 65);
+  font-size: large;
+  color: rgb(233, 164, 16);
+  font-family: sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.8;
+  justify-content: space-between;
+}
+
+.contact {
+  padding: 50px;
+  margin: 0%;
+  height: 600px;
+  color: rgb(229, 232, 241);
+  background-color: rgb(134, 137, 146);
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.contact form input {
+  width: 500px;
+  height: 20px;
+}
+.contact textarea {
+  width: 500px;
+}
